@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 import Navbar from './components/Navbar';
@@ -7,6 +8,7 @@ import Menu from './components/Menu';
 import Gallery from './components/Gallery';
 import Contact from './components/Contact';
 import FoodVideo from './components/FoodVideo';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -19,6 +21,7 @@ function App() {
         <FoodVideo />
         <Gallery />
         <Contact />
+        <Footer />
       </div>
     </Router>
   );
